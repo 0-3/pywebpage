@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(white, #EAEDF0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet", "Arial";
+}
+
+.header {
+    width: 100%;
+    height: 6%;
+    border-bottom: 1px solid #EAEDF0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 51px;
+}
+
+.content {
+    width: 100%;
+    height: 94%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #EAEDF0;
+}
+
+.description {
+    border: 1px solid #EAEDF0;
+    border-radius: 25px;
+    width: 40%;
+    height: auto;
+    margin: 5%;
+}
+
+.code {
+    border: 1px solid #EAEDF0;
+    border-radius: 25px;
+    width: 40%;
+    height: auto;
+    margin: 5%;
+}
+
+#form1 {
+    padding: 5%;
+}
+
+#button {
+    margin-left: 5%;
+    border-radius: 5px;
+    border-color: white;
+    padding: 5px;
+    background-color: white;
+}
+
+#result {
+    padding: 5%;
+}
+
+#description{
+    padding: 5%;
+}
